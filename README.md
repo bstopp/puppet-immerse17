@@ -2,6 +2,8 @@
 
 How to use:
 
+1. Install Vagrant
+1. Install Virtual Box
 1. Download an AEM Quickstart file
     1. Name the file `aem-quickstart.jar`, and place it in the files directory.
 1. Download a dispatcher file for Linux Apache 2.4
