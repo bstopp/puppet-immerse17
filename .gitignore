@@ -1,0 +1,9 @@
+puppet/modules/*
+setup/.librarian
+setup/.tmp
+setup/Puppetfile.lock
+.vagrant
+.idea
+*.iml
+*.log
+

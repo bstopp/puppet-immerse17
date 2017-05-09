@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+forge "https://forgeapi.puppetlabs.com"
+
+
+# Puppet Supported Modules
+# https://forge.puppetlabs.com/supported
+mod 'puppetlabs/stdlib'
+mod 'puppetlabs/firewall'
+mod 'puppetlabs/apache'
+mod 'puppetlabs/java',
+    git: 'git://github.com/puppetlabs/puppetlabs-java.git'
+
+mod 'puppet/archive'
+
+# Puppet Approved Modules
+# https://forge.puppetlabs.com/approved
+mod 'maestrodev/wget'
+mod 'rodjek/logrotate'
+mod 'bstopp/aem', git: 'https://github.com/bstopp/puppet-aem.git'
