@@ -82,6 +82,7 @@ $admin_password = lookup('aem::admin::password')
 
 anchor{ 'immerse::init::end': }
 
+include ::ruby::dev
 
 Anchor['immerse::init::begin']
 -> Java::Oracle['jdk8']

@@ -10,7 +10,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/firewall'
 mod 'puppetlabs/apache'
 mod 'puppetlabs/java',
-    git: 'git://github.com/puppetlabs/puppetlabs-java.git'
+    git: 'https://github.com/puppetlabs/puppetlabs-java.git'
 
 mod 'puppet/archive'
 

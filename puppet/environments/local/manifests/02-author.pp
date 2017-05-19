@@ -47,6 +47,7 @@ aem::instance { 'aem' :
   runmodes        => ['localdev', 'local'],
   sample_content  => true,
   source          => '/vagrant/files/aem-quickstart.jar',
+  timeout         => 1200,
   type            => 'author',
   version         => '6.2.0',
 }
